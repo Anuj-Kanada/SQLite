@@ -1,0 +1,19 @@
+.shell cls
+
+- to create db : sqlite3 dbname.db (company.db)
+
+- to check db is existed or not : .database
+
+- to create table : CREATE TABLE Employee
+			(
+			 EmpId INT,
+			 EmpName TEXT,
+			 Age INT,
+			 Salary REAL
+			); 
+- to check existing table and its detail : .schema tablename (Employee) and .schema for show all table details 
+- to check existing table list : .tables
+# To export csv
+-> . header on
+-> . mode csv
+-> .once path\name.csv with forward slash
